@@ -1,0 +1,45 @@
+/* <!-- Jayden Reagan -->
+<!-- Final Project -->
+<!-- December 2nd, 2021 --> */
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: white;
+  background: black;
+}
+
+.h1{
+  font-family: 'Rampart One', cursive;
+}
+
+.col1 img{
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 75%;
+}
+
+.col1, .col2{
+  margin: 2%;
+  float: left;
+  width: 45%;
+  height: 100%;
+}
+
+.remove-bullet{
+  list-style-type: none;
+}
+
+.history{
+  padding: 5%;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 775px) {
+.col1, .col2{
+  width: 100%;
+}
+}
